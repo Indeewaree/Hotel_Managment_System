@@ -1,0 +1,101 @@
+*{
+ margin: 0;   
+
+}
+html{
+  
+  min-height: 100%;
+}
+
+body{
+  font-family: poppins;
+  background-color: #000;
+  
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+/* Slide Icon ========================================== */
+
+
+
+
+/* ========== Slide Icon END ========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   padding:15px;
+   padding-bottom: 100%;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 14px;
+   color:#ffffff;
+}
+
+.container .content h3 span{
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 18px;
+   color:#a09999;
+}
+
+.container .content h1 span{
+   color:crimson;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:5px 20px;
+   font-size: 20px;
+   background: #333;
+   color:#fff5f5;
+   margin:0 5px;
+   border-radius: 18px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: crimson;
+}
+
+
+
+
+
+
+
+
+

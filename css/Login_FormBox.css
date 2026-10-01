@@ -1,0 +1,139 @@
+/* ----====Login Form =========================== */
+.form-container{
+   min-height: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:10px;
+   padding-bottom: 40px;
+   margin-top: 50px;
+   
+
+   .form-container label {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.form-container label input {
+    margin-left: 5px; /* Adjust the margin as needed */
+}
+
+.form-container label p {
+    margin: 0;
+    margin-left: 10px; /* Adjust the margin as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #000000;
+}
+
+ 
+ }
+ .form-container:before {
+     
+     width: 100%;
+     background-image: url("2.jpg");
+     background-size: cover;
+     content: "";
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     z-index: -1;
+     display: block;
+  
+ 
+ }
+ .form-container form{
+   padding:15px;
+   border-radius: 10px;
+   border:  2px solid wheat;
+   background: rgba(255, 255, 255, 0);
+   backdrop-filter: blur(10px);
+   
+    color:white;
+
+    text-align: center;
+    width: 380px;
+    height: 520px;
+    margin-top: 50px;
+ 
+ }
+ 
+ .form-container form h3{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color:rgb(255, 255, 255);
+}
+ 
+ .form-container form input,
+ .form-container form select{
+    width: 92%;
+    padding:5px 15px;
+    font-size: 15px;
+    margin:5px 0;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 35px;
+    margin-right: 100%;
+ }
+ 
+ .form-container form select option{
+    background: #fff;
+ }
+ 
+ .form-container form .form-btn{
+    background: #fbd0d9;
+    color:crimson;
+    text-transform: capitalize;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bolder;
+    width: 100%;
+    height: 45px;
+ }
+ 
+ .form-container form .form-btn:hover{
+    background: crimson;
+    color:#fff;
+ }
+ 
+ .form-container form .form-button{
+   background: #00bfff;
+   color:rgb(0, 0, 0);
+   text-transform: capitalize;
+   font-size: 16px;
+   cursor: pointer;
+
+   border-radius: 5px;
+   margin-right: 100%;
+  
+}
+
+.form-container form .form-button:hover{
+   background: rgb(255, 0, 0);
+   color:#fff;
+}
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+
+   color:#fc0000;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+ 
+ 
+ /* Register Form==============****Start****================= */
+ 
+ /* End Register Form ========================================= */
+ /* ==================end Login Form========================== */
+ 
+ 
+ 
